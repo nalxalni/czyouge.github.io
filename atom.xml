@@ -2,13 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://czyouge.github.io</id>
     <title>虫子游戈</title>
-    <updated>2021-07-20T08:16:32.787Z</updated>
+    <updated>2021-07-20T08:20:30.685Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://czyouge.github.io"/>
     <link rel="self" href="https://czyouge.github.io/atom.xml"/>
     <logo>https://czyouge.github.io/images/avatar.png</logo>
     <icon>https://czyouge.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 虫子游戈</rights>
+    <entry>
+        <title type="html"><![CDATA[Test one]]></title>
+        <id>https://czyouge.github.io/post/2MsVoqM68/</id>
+        <link href="https://czyouge.github.io/post/2MsVoqM68/">
+        </link>
+        <updated>2021-07-20T08:16:45.000Z</updated>
+        <content type="html"><![CDATA[<p>故事开始了<img src="https://czyouge.github.io/post-images/1626769031362.jpg" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://czyouge.github.io/post/hello-gridea/</id>
