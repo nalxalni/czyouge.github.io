@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://czyouge.github.io</id>
     <title>虫子游戈</title>
-    <updated>2021-08-17T07:32:47.845Z</updated>
+    <updated>2021-08-26T12:00:30.125Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://czyouge.github.io"/>
     <link rel="self" href="https://czyouge.github.io/atom.xml"/>
@@ -10,6 +10,55 @@
     <logo>https://czyouge.github.io/images/avatar.png</logo>
     <icon>https://czyouge.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 虫子游戈</rights>
+    <entry>
+        <title type="html"><![CDATA[2021年8月遇到的英语表达]]></title>
+        <id>https://czyouge.github.io/post/2108-English/</id>
+        <link href="https://czyouge.github.io/post/2108-English/">
+        </link>
+        <updated>2021-09-01T03:19:28.000Z</updated>
+        <content type="html"><![CDATA[<h3 id="1-come-to-grips-with">1. come to grips with</h3>
+<p>应付/对付/应对某人/某事，通常是自己已经有所准备或者能处理得很高效。</p>
+<h3 id="2-hells-bells">2. Hell's bells!</h3>
+<p>表达愤怒和惊讶，完整表达为「hell's bells and buckets of blood」。</p>
+<h3 id="3-square-away-somethingsomeone">3. square away something/someone</h3>
+<p>料理妥当。to complete all necessary arrangements for something or someone</p>
+<h3 id="4-let-bygones-be-bygones">4. Let Bygones Be Bygones</h3>
+<p>既往不咎。</p>
+<h3 id="5-stinking">5. stinking</h3>
+<p>多义词，表示很臭或者强烈。在口语中可以形容一个人处于严重的醉酒状态——醉得打闪闪。</p>
+<h3 id="6-head-off">6. head off</h3>
+<p>不是指头掉了，而是指拦截某人，先发制人。</p>
+<ul>
+<li>If you head off a person, animal, or vehicle, you move to a place in front of them in order to capture them or make them change the direction they are moving in.</li>
+<li>If you head something off, especially something unpleasant, you take action before it is expected to happen in order to prevent it from happening.</li>
+</ul>
+<h3 id="7-in-due-course">7. in due course</h3>
+<p>事情按原有的步调发展，不能加快也不能使其减慢。</p>
+<h3 id="8-gay-nineties">8. Gay Nineties</h3>
+<p>参考<a href="https://en.wikipedia.org/wiki/Gay_Nineties">维基百科</a>。Gay Nineties 其实就是指 19 世纪 90 年代，即 1890 年代，这在英国被称为 <strong>Naughty Nineties</strong>（淘气九十年代）。虽然这个词中有 Gay，但其实和「同性恋」没有关系。也许可以翻译成「欢乐九十年代」。</p>
+<h3 id="9-student-co-op">9. Student Co-Op</h3>
+<p>学生自己互相之间建立的合作团体，比如合作住房、合作银行、合作食品市场、合作教育等等，像是多个学生合租同一栋房屋之类的。</p>
+<h3 id="10-the-cat-that-ate-the-canary">10. The cat that ate the canary</h3>
+<p>直译是「吃了金丝雀的猫」，可用于形容一个人志得意满，很嘚瑟的样子。类比一下，大概就是「吃了天鹅的癞蛤蟆到处呱呱叫」。</p>
+<h3 id="11-slip-up">11. slip up</h3>
+<p>出现小失误。</p>
+<h3 id="12-sitting-turkfashion-on-the-bed">12. sitting Turkfashion on the bed</h3>
+<p>Turkfashion 土耳其风格。以土耳其风格坐在床上？其实就是指盘腿而坐，<a href="https://forum.wordreference.com/threads/sitting-turkfashion-on-the-bed.3577502/">这里</a>可看到一些讨论。</p>
+<h3 id="13-fling-out-of-something">13. fling out of (something)</h3>
+<p>To toss or throw something out of something else. A noun or pronoun can be used between &quot;fling&quot; and &quot;out.&quot;</p>
+<h3 id="14-thrice">14. thrice</h3>
+<p>三次，three times。</p>
+<h3 id="15-arcadia">15. Arcadia</h3>
+<p>虚构的世外桃源。</p>
+<h3 id="16-nubile">16. nubile</h3>
+<p>性感迷人的。//让我想起「牛逼了」——毫无意义的点评。</p>
+<h3 id="17-dog-eared">17. dog-eared</h3>
+<p>书角卷起，像狗耳朵一样。亦可形容破旧衰败。</p>
+<h3 id="18-hot-hand">18. hot hand</h3>
+<p>热手？当然可以这么理解。也可表示旺盛的手气、手感。</p>
+<p>根据维基百科：热手谬误（英语：The Hot Hand Fallacy），是一种机率谬误，主张因为某件事发生了很多次，所以很可能再次发生。就像篮球比赛中有“热手”的运动员有更大的几率进球。但这实际上是一种错觉。故此用直觉代替理性分析的现象有个专属名称，即“热手效应”。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[92年的我29岁了]]></title>
         <id>https://czyouge.github.io/post/2108-9229/</id>
@@ -610,39 +659,6 @@
 <p>12 年来，比特币已经确立了自己的全球地位：一种人人都可自由自愿采用的替代货币体系。尽管「经济专家」和「货币管理当局」一直在无休止地责难比特币，但比特币的价值依旧持续指数级增长。</p>
 <p>现在，随着现行货币秩序的自我覆灭，比特币站了起来，这个数字货币网络将提供直接的激励，让这个星球上的每个人和实体都使用它。</p>
 <p>一场巨大的债务禧年即将到来，而后世将称之为超比特币化（hyperbitcoinization）。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[如何通证化文艺创作]]></title>
-        <id>https://czyouge.github.io/post/tokenize-art/</id>
-        <link href="https://czyouge.github.io/post/tokenize-art/">
-        </link>
-        <updated>2020-10-21T07:28:30.000Z</updated>
-        <content type="html"><![CDATA[<p>许多自由职业的文艺工作者在进行创作时面临着一个问题：穷。也就是说创作过程需要较长时间（比如制作独立电影、开发独立游戏、写作长篇小说），而在结果出来之前，他们是没有收入的。针对这一问题，现有的策略无非四种：</p>
-<ul>
-<li>已经拥有足够的资金可以支撑自己的创作；（有钱人的生活，没啥说的。）</li>
-<li>变成打工人，兼职创作；（这通常会延长创作完成的时间。）</li>
-<li>向目标客户预售；（通常有一定折扣，「预售」已经是游戏行业的重要销售形式。）</li>
-<li>寻找支持者，获得前期投资。（电影行业的常用模式。）</li>
-</ul>
-<p>通证经济概念的出现提供了一种新的思路来获取前期投资：将自己的文艺作品通证化，通过发行代币来获得创作资金。</p>
-<p>以小说创作为例，我设想的过程是这样的：</p>
-<p>第一步是评估自己的创作时间、资金成本和最终效益。假设你要写作一部长篇小说，并且已经完成了创意构思，那么你可以估计所需的创作时间。假设为 <strong>2 年</strong>。然后继续估计：在这两年里你需要多少资金才能维持健康的生活。假设为 <strong>5 万元</strong>。而在这本书完成之后，你认为它能在多长的时间跨度内带来多少收入？假设 <strong>10 年 20 万元</strong>、<strong>20 年 30 万元</strong>、20 年之后不再考虑；另假设这些收入是税后收入。</p>
-<p>第二步，设置一个理想投资回报率，并基于此计算作品通证化比例。假设你愿意在 2 年创作完成后 10 年时间里提供两倍的回报。则你一共需要 10 万元，平均每年提供 1 万元，年回报率 1万/5万=20%。还算可以吧，毕竟不是暴利行业。在 10 年时间里，估计收入为 20 万元，则你的通证化比例为 10万/20万=50%。<em>（需要注意：作品不应大比例或完全通证化，这可能使作者丧失创作动力。）</em></p>
-<p>第三步，发行通证。你将计划创作的作品的 50% 通证化，比如发行 5 万「新小说币（XXS）」，每个 XXS 售价 1 元。假设你能成功出售它们，然后你获得 5 万元创作资金。</p>
-<p>第四步，你开始创作，定期公布创作进度（也可协议约定不公布），而 XXS 则在 CeFi、DeFi 等交易平台上进行交易。当然，用户也可以私下划转。</p>
-<p>第五步，你完成创作，作品出版销售，开始为你带来收入。对于你的每一笔因此获得的收入，你都需要将其中 50% 用于回购已发行的 XXS 并销毁。为了保证透明，<strong>回购应在公共交易平台上进行，而且你必须无条件接受市面上的单价</strong>。假设你在每月 15 日上午 10 点整使用上个月的收入进行回购。假设一下不同的场景：</p>
-<ul>
-<li>你的作品上市之后受到追捧，此时 XXS 代币的单价已经被炒到每币 5 元，早期投资者已经获得了丰厚的回报。这时候，你上个月因这本书获得的收入为 4 万元，则你需要拿出其中 2 万元，回购得到 4000 个 XXS。然后你将这些 XXS 转入销毁地址。</li>
-<li>假设 XXS 最终集中到了单个投资者手中，其挂出了每 XXS 1000万元的单价，那么在每月回购时，你也许就只能销毁 0.002 XXS 了。</li>
-<li>你的小说赢得电影公司的青睐，1000 万买下改编权，则下个月你需要拿出其中 500 万回购 XXS——即便你一开始获得的投资仅有 5 万元。</li>
-<li>如果你的作品实在烂得超出预期，根本没有什么有价值的收入。根据协议的不同，投资人只能承认投资失败或获得其它赔偿。</li>
-<li>如果你没有完成创作，则按照约定赔偿。</li>
-</ul>
-<p>第六步，持续执行「回购并销毁」过程，直到满足约定的限定条件：比如市面上已经连续六个月没有 XXS 挂单（虽然还有 XXS 存在，但可能由无偿支持者持有或密钥已丢失）、回购终止时间到达（比如已经是 30 年之后）。</p>
-<p>最后说一下另一个想法。一开始我设想创造者本人不能保留任何 XXS，也不能通过任何方式直接或间接持有，以免操纵价格，让其以同样的价格回购到更多的 XXS。但现实是这根本无法监管，没人知道匿名钱包地址属于谁。而且这一次创作者回购了更多的 XXS 就意味着下一次可回购的 XXS 更少了，似乎对长期投资者更有利。</p>
-<p>当然，考虑到很多创作者没有技术能力来自己发行代币。为了实现这样的文艺创作通证化模式，还需要有人创建一些易于使用的服务平台才行。</p>
-<p>这只是一个单纯想法，未考虑通货膨胀以及出版后作品的修订成本等因素，但希望能启发读者进一步思考通证经济对文艺创作的潜在价值。</p>
 ]]></content>
     </entry>
 </feed>
