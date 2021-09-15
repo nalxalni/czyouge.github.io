@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://czyouge.github.io</id>
     <title>虫子游戈</title>
-    <updated>2021-09-15T02:16:06.975Z</updated>
+    <updated>2021-09-15T02:40:34.546Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://czyouge.github.io"/>
     <link rel="self" href="https://czyouge.github.io/atom.xml"/>
@@ -10,6 +10,29 @@
     <logo>https://czyouge.github.io/images/avatar.png</logo>
     <icon>https://czyouge.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 虫子游戈</rights>
+    <entry>
+        <title type="html"><![CDATA[《自踢己踵》翻译说明]]></title>
+        <id>https://czyouge.github.io/post/noteforByHisBootstraps/</id>
+        <link href="https://czyouge.github.io/post/noteforByHisBootstraps/">
+        </link>
+        <updated>2021-09-15T02:30:19.000Z</updated>
+        <summary type="html"><![CDATA[<p>对于小说《By His Bootstraps》及其译文《自踢己踵》，有以下几点需要说明：</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>对于小说《By His Bootstraps》及其译文《自踢己踵》，有以下几点需要说明：</p>
+<!-- more -->
+<ol>
+<li>小说早以笔名 Anson MacDonald（安森·麦克当劳德） 发表于《惊奇科幻故事（ Astounding Science Fiction）》1941 年 10 月刊；另外罗伯特·A·海因莱因中的 A 即为 Anson。</li>
+<li>原文有两处不一致的地方，我觉得按照这篇小说的设定，不应该出现这种不一致。第一处，如下三图所示，第12页，一号威尔逊的经历中，他对三号说的是「who are you」。而在22页二号的经历中，一号说的是「who the hell are you」。三号的经历与一号的一致。因此，我在翻译时将二号的经历改成了与其它两个一样。省去了 the hell，如果要与原文一致，可改成「你他妈又是谁？」<br>
+<img src="https://czyouge.github.io/post-images/1631673345548.png" alt="" loading="lazy"><br>
+<img src="https://czyouge.github.io/post-images/1631673354753.png" alt="" loading="lazy"><br>
+<img src="https://czyouge.github.io/post-images/1631673360548.png" alt="" loading="lazy"></li>
+<li>第二处。第23页二号的经历中是this Time Gate thing。第30页三号的经历中是 this Gate thing。我采用的翻译中两句话是一样的。<br>
+<img src="https://czyouge.github.io/post-images/1631673410341.png" alt="" loading="lazy"><br>
+<img src="https://czyouge.github.io/post-images/1631673416416.png" alt="" loading="lazy"></li>
+<li>「至高众」和「被遗弃众」的译法也许有点拗口，但翻译成「至高者」和「被遗弃者」似乎不能体现出 ones 的感觉。</li>
+</ol>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[自踢己踵]]></title>
         <id>https://czyouge.github.io/post/2109-By-His-Bootstraps/</id>
@@ -1124,53 +1147,6 @@
 <p>两小时后，我离开浴室，然后去买了一张巨大薄膜，将我的床上用品一并打包扔到了负一楼的垃圾点，让恶臭变成了别人的问题。</p>
 <p>之后我又在浴室冲洗了一小时。</p>
 <p>当我终于停歇下来坐在沙发上补充水分时，我发现那只粉红色的独角兽已被暴力拆解，变成了一摊四散在地的填充棉和电子零件。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[观音桥躺平者]]></title>
-        <id>https://czyouge.github.io/post/tangping/</id>
-        <link href="https://czyouge.github.io/post/tangping/">
-        </link>
-        <updated>2021-06-12T04:12:12.000Z</updated>
-        <summary type="html"><![CDATA[<p>那天，一个穿着普通白色短袖衫、灰色齐膝短裤和深蓝色运动鞋的二十六岁人类走到了观音桥那个人造的假山前面，在一池子机器搅动着水面前方，在被烈日加热到让人难以忍受的地面之上，躺平下来。</p>
-<p>他躺得非常平，仿佛是躺平一事上与生俱来的专家。</p>
-<p>他躺得如此之平，几乎与地面融为一体，化为一步阶梯，成了建设这广场的不起眼基石之一。</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>那天，一个穿着普通白色短袖衫、灰色齐膝短裤和深蓝色运动鞋的二十六岁人类走到了观音桥那个人造的假山前面，在一池子机器搅动着水面前方，在被烈日加热到让人难以忍受的地面之上，躺平下来。</p>
-<p>他躺得非常平，仿佛是躺平一事上与生俱来的专家。</p>
-<p>他躺得如此之平，几乎与地面融为一体，化为一步阶梯，成了建设这广场的不起眼基石之一。</p>
-<!-- more -->
-<p>但他又立于这广场的平面之上，所以也就不可避免地引起了注意和注视。</p>
-<p>过往路人展现着自己的态度。</p>
-<p>真正的漠不关心者不屑一顾，他们踏着广场上真正的石砖向自己的目的地前进。</p>
-<p>虚假的漠不关心者斜视一眼，便在头脑之中给躺平者打上了「哗众取宠」的标签。</p>
-<p>有人避之不及，觉得这是千万不能有任何牵连的政治姿态，是对当权者的反对。</p>
-<p>有人评头论足，或将他扁平的五官与 Minecraft 的人物形象类比，或惊叹于他毫无破绽得近乎无懈可击的平整，或猜测着他的性别或是否具有性别。</p>
-<p>也有人猜测他的意图。有人相信他是一个表演艺术家，尽管他面前没有摆着帽子、罐子或二维码，但那些东西毕竟也算不得艺术家的必备之物。有人认为他是一位反对者，在异议被过滤乃至禁止的国度里，任何脱离群众的特立独行都是在述说对当前秩序的不满。有人则表示他就单纯只是一个疯子，毕竟只有发了疯才能解释在这夏日中睁着眼睛躺在烈日之下的怪异行径。</p>
-<p>有人试图与他对话，问他是否身体或头脑有病，问他家在何方又为何来到这里，问他有何悲伤故事以至于选择放弃，问他究竟反对什么但不管是什么都将毫无成效。但他都没有问答，就像沉默的大多数。</p>
-<p>他只是躺着，单纯地躺着，面无表情，对围观者毫不在意。</p>
-<p>有人想为他撑一把伞或送他一杯多冰的饮料，但被他人以「或有表达支持之嫌」而劝阻。</p>
-<p>有人说：「我不是要表达支持，只是表达同情。」</p>
-<p>「但在他们眼里，这两者并无区别。」</p>
-<p>「他们是谁？」</p>
-<p>却无人回答。</p>
-<p>注意和注视之后，他又得到了特别的关注。</p>
-<p>观音桥有时而往复巡逻的巡警，但他们也并不一定是真正的警察，因为其中一些人少了一种名为「编制」的属性，于是只能被称作「协警」。</p>
-<p>一队五人巡警发现了他。</p>
-<p>巡警们勒令他站起来，像正常人一样。</p>
-<p>毫无反应。</p>
-<p>巡警们倍感受辱，于是开始采取强制措施。</p>
-<p>一位巡警抓头发，一位巡警扯衣襟，一位巡警用棒敲，一位巡警上手铐。</p>
-<p>还有一位巡警，他用食指指点围观者：莫要拍照！</p>
-<p>但躺平者继续躺平，面无表情，也不移动，似乎真就与地面合为一体，让巡警们无可奈何。</p>
-<p>巡警们拉上警戒线，又搭建起临时帐篷，将躺平者变成了一个秘密。</p>
-<p>刑讯组来了，一顿操作之后无功而返。</p>
-<p>谈判专家来了，用完了一瓶润喉糖也毫无成效。</p>
-<p>然后来了和尚、道士和神父，都表示这是前所未有的现象，也许正是神的安排。</p>
-<p>政府也找来了拥有物理学家、生物学家、心理学家、精神病理学等头衔的专业人士，他们采集了数据，却都不敢给出任何结果，也不敢随意想象。</p>
-<p>又来了名片上写着「超自然现象学家」，他却说这证明新世界将就此诞生。这是不符合主旋律的发言，于是被立马清除。</p>
-<p>躺平者继续躺平，油盐不进，刀枪不入，既不生产，也不消费，毫无反应，没有贡献，既没价值，也无危害。</p>
-<p>后来，观音桥假山下水池做了一番改建，躺平者被用作材料，成了一尊怪异且丑陋塑像下的一块基石。</p>
 ]]></content>
     </entry>
 </feed>
