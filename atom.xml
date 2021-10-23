@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://czyouge.github.io</id>
     <title>虫子游戈</title>
-    <updated>2021-10-23T13:07:36.704Z</updated>
+    <updated>2021-10-23T13:12:26.333Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://czyouge.github.io"/>
     <link rel="self" href="https://czyouge.github.io/atom.xml"/>
@@ -16,10 +16,10 @@
         <link href="https://czyouge.github.io/post/2110-Cardano/">
         </link>
         <updated>2021-10-23T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>本文译自 IOHK 博客《<a href="https://iohk.io/en/blog/posts/2021/10/21/cardano-robust-resilient-and-flexible/">Cardano: robust, resilient – and flexible</a>》，作者：<a href="https://iohk.io/en/blog/authors/kevin-hammond/page-1/">Kevin Hammond</a>，软件工程师。</strong></p>
+        <summary type="html"><![CDATA[<p><strong>本文译自 IOHK 博客《<a href="https://iohk.io/en/blog/posts/2021/10/21/cardano-robust-resilient-and-flexible/">Cardano: robust, resilient – and flexible</a>》，作者：<a href="https://iohk.io/en/blog/authors/kevin-hammond/page-1/">Kevin Hammond</a>，软件工程师。2021 年 10 月 21 日。</strong></p>
 <p><em>导读：Cardano 区块链上的 NFT 项目正在爆发式发展，但与此同时，由于 NFT 创建过程涉及到在短时间内处理大量交易，因此使得 Cardano 出现了明显的网络拥堵问题。IOHK 的这篇文章从架构设计和参数配置角度解释了这些问题出现的原因并简单说明了短期及中长期的可能方案。</em></p>
 ]]></summary>
-        <content type="html"><![CDATA[<p><strong>本文译自 IOHK 博客《<a href="https://iohk.io/en/blog/posts/2021/10/21/cardano-robust-resilient-and-flexible/">Cardano: robust, resilient – and flexible</a>》，作者：<a href="https://iohk.io/en/blog/authors/kevin-hammond/page-1/">Kevin Hammond</a>，软件工程师。</strong></p>
+        <content type="html"><![CDATA[<p><strong>本文译自 IOHK 博客《<a href="https://iohk.io/en/blog/posts/2021/10/21/cardano-robust-resilient-and-flexible/">Cardano: robust, resilient – and flexible</a>》，作者：<a href="https://iohk.io/en/blog/authors/kevin-hammond/page-1/">Kevin Hammond</a>，软件工程师。2021 年 10 月 21 日。</strong></p>
 <p><em>导读：Cardano 区块链上的 NFT 项目正在爆发式发展，但与此同时，由于 NFT 创建过程涉及到在短时间内处理大量交易，因此使得 Cardano 出现了明显的网络拥堵问题。IOHK 的这篇文章从架构设计和参数配置角度解释了这些问题出现的原因并简单说明了短期及中长期的可能方案。</em></p>
 <!-- more -->
 <figure data-type="image" tabindex="1"><img src="https://czyouge.github.io/post-images/Cardano.png" alt="" loading="lazy"></figure>
