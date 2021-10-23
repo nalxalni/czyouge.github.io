@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://czyouge.github.io</id>
     <title>虫子游戈</title>
-    <updated>2021-10-20T11:28:25.694Z</updated>
+    <updated>2021-10-23T13:05:30.923Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://czyouge.github.io"/>
     <link rel="self" href="https://czyouge.github.io/atom.xml"/>
@@ -10,6 +10,53 @@
     <logo>https://czyouge.github.io/images/avatar.png</logo>
     <icon>https://czyouge.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 虫子游戈</rights>
+    <entry>
+        <title type="html"><![CDATA[Cardano的结构和参数以及应对网络拥堵的方案]]></title>
+        <id>https://czyouge.github.io/post/2110-Cardano/</id>
+        <link href="https://czyouge.github.io/post/2110-Cardano/">
+        </link>
+        <updated>2021-10-23T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>本文译自 IOHK 博客《<a href="https://iohk.io/en/blog/posts/2021/10/21/cardano-robust-resilient-and-flexible/">Cardano: robust, resilient – and flexible</a>》，作者：<a href="https://iohk.io/en/blog/authors/kevin-hammond/page-1/">Kevin Hammond</a>，软件工程师。</strong></p>
+<p><em>导读：Cardano 区块链上的 NFT 项目正在爆发式发展，但与此同时，由于 NFT 创建过程涉及到在短时间内处理大量交易，因此使得 Cardano 出现了明显的网络拥堵问题。IOHK 的这篇文章从架构设计和参数配置角度解释了这些问题出现的原因并简单说明了短期及中长期的可能方案。</em></p>
+]]></summary>
+        <content type="html"><![CDATA[<p><strong>本文译自 IOHK 博客《<a href="https://iohk.io/en/blog/posts/2021/10/21/cardano-robust-resilient-and-flexible/">Cardano: robust, resilient – and flexible</a>》，作者：<a href="https://iohk.io/en/blog/authors/kevin-hammond/page-1/">Kevin Hammond</a>，软件工程师。</strong></p>
+<p><em>导读：Cardano 区块链上的 NFT 项目正在爆发式发展，但与此同时，由于 NFT 创建过程涉及到在短时间内处理大量交易，因此使得 Cardano 出现了明显的网络拥堵问题。IOHK 的这篇文章从架构设计和参数配置角度解释了这些问题出现的原因并简单说明了短期及中长期的可能方案。</em></p>
+<!-- more -->
+<figure data-type="image" tabindex="1"><img src="https://czyouge.github.io/post-images/Cardano.png" alt="" loading="lazy"></figure>
+<p>Cardano 的设计目标是能以全球级分布式的方式为数以亿计用户提供服务。与其它去中心化区块链一样，这意味着我们需要稳定持续地产生符合预期的新区块；这些区块以透明的方式记录了用户之间的交易，合在一起会让区块链不断增长。为了确保新区块能以一种高效且安全的方式传播到整个网络，整个系统必须要在计算、内存、存储和网络资源的消耗上达到足够高的效率。</p>
+<p>灵活性是此中关键，因此 Cardano 协议的一个重要特征就是其架构设计充分考虑了真正的可扩展性（scalability）。这不只是为了实现更长期的目标，即把 Cardano 打造成一个真正全球化的、完全去中心化的操作系统；而且其还采用了参数化的方法，旨在灵活应对价格波动、网络饱和及需求增长等情况。Cardano 提供了一些协议参数，可让该系统无需硬分叉即可实现对系统行为的调整。即便如此，如果确实需要更重大的升级，也能够使用我们的硬分叉组合器（HFC/hard fork combinator）技术实现。这些特性组合起来，成为了 Cardano 不同于现有其它区块链的差异化要素，让今天的 Cardano 就已经非常稳健和可靠，并且使其具备了高度敏捷（agile）的升级路径，从而能灵活应对网络的增长和使用情况的变化。</p>
+<p>Cardano 的路线图设计分为一系列阶段，从而让我们能一步一个脚印地迈向最终目标。Byron 阶段的目标是采用联合网络形式实现基本的交易功能。这让我们可以开始构建社区和建立合作关系，同时向下一阶段努力。Byron reboot 为进一步的功能开发奠定了坚实的基础，而 Shelley 阶段则引入了质押池，进一步扩大了社区规模并开始了 100% 去中心化的区块生产之旅。</p>
+<p>今年 Cardano 又引入了几个备受期待的新功能。自 2021 年初以来，随着 Mary 世代的到来，Cardano 已经支持在账本上创造其它资产代币和非同质化代币（NFT）。由于 Cardano 手续费很低，而且代币创建无需智能合约，因此我们看到 Cardano NFT 出现了爆发式的增长。进入 9 月，Alonzo 升级使 Cardano 开始支持 Plutus 智能合约，从而使其可以运行种类繁多的去中心化应用（DApp）。目前 Cardano 的智能合约还处于相当早期的阶段，但已经有<a href="https://github.com/input-output-hk/essential-cardano/blob/main/essential-cardano-list.md">数十个项目</a>在开发 DApp 了而且已经有几个项目已经接近可部署状态。很快相关的开发活动会进一步加速。这些新功能会影响 Cardano 账本处理新脚本和交易的方式，同时也会对可用资源产生新的需求。随着交易活动增多，Cardano 架构支持实现敏捷地应对和适应需求。</p>
+<h2 id="网络容量">网络容量</h2>
+<p>网络连接是 Cardano 运作的核心。Cardano 网络会向分散全球的节点分发交易和区块数据，而这些节点的作用是生成和验证该区块链。这个过程称为数据扩散（data diffusion），这个必需的过程能为节点提供所需的信息，保证共识算法正确决策。这些决策能推动该区块链向前演进，因为节点之间的共识可确保所有交易都得到检验和验证，并进一步被公开透明地纳入到新的区块中。</p>
+<p>Cardano 的共识协议是去中心化的 <a href="https://iohk.io/en/research/library/papers/ouroboros-praosan-adaptively-securesemi-synchronous-proof-of-stake-protocol/">Ouroboros Praos</a>。通过对协议<a href="https://iohk.io/en/blog/posts/2021/03/04/not-long-till-d-0-day/">参数 d</a> 执行一系列修改，Cardano 已经从之前的联合式 Ouroboros Classic 协议迁移到了 Praos 协议。Ouroboros Praos 的安全性是有高度保证的，其基础是许多在顶级网络安全和加密技术会议与期刊中经受过同行评议的研究论文。</p>
+<p>网络性能会影响该系统整体工作的速度。其中包括以下指标：</p>
+<ul>
+<li>吞吐量（传输的数据量）</li>
+<li>及时性（纳入区块的时间）</li>
+</ul>
+<p>这两项要求是互相矛盾的。当我们已能最高效地使用生成的区块时，我们可以尽可能最大地提升吞吐量。反过来，这意味着要有足够的缓冲来掩盖延迟，这能减缓全球分布式系统的不便。</p>
+<p>更多缓冲通常意味着能更好地使用区块（及网络），但其代价是当系统过度饱和时延迟（即纳入到链中的时间）会更长。</p>
+<h2 id="区块预算">区块预算</h2>
+<p>要理解 Cardano 执行交易和脚本的速度，我们首先应该定义区块预算（block budget）的概念。Cardano 的区块大小目前限制为最大 64 KB，这个参数的设计平衡考虑了优良的网络利用率与尽可能小的交易延迟。单个区块可能会包含多种不同的交易，包括使用 Plutus 脚本的交易（智能合约）、native token、元数据、基本 ADA 交易（支付）。类似地，目前单个交易的大小规模限制在最大 16KB。这能确保单个区块总是包含多个交易（至少 4 个，但通常会多得多），由此提升整体的交易吞吐量。</p>
+<p>区块时间预算也是一个重要属性，这是指用于处理单个区块中所有交易可用的时间，这个时间长度是固定的。这分为用于执行 Plutus 脚本的时间和用于执行其它交易的时间。这个属性能确保使用 Plutus 脚本的交易不会垄断所有可用的时间预算，因此该系统总是可以在包含 Plutus 脚本的区块中处理基本支付。用于生成每个区块的总时间预算（包括网络连接成本）设置为 1 秒，其中用于执行 Plutus 脚本的可用时间预算大约为 50 毫秒。在实践中，这个参数是相当宽松的——基准测试已经表明：在参考系统上，许多真实脚本的执行时间都小于 1 毫秒。</p>
+<p>区块时间预算目前设置为 1 秒。出于安全考虑，Praos 共识协议会在有可能加到链上的区块中选择小部分（二十分之一）。那么在当前的协议参数下，最大交易吞吐量（简单交易）大约为每秒 11 笔交易（11 TPS）。很显然，不同交易的数据量大小不一样，也具有不同的有效负载。举个例子，单笔交易就能最终确定一整轮 Catalyst 投票，转移价值数百万美元的资产。</p>
+<p>正如前面讨论的，每个区块都包含用户通过钱包或命令行工具（CLI）等提交的许多交易。这些交易会被保存在一个临时的内存托管区（即 mempool/内存池），直到它们可被处理并纳入到区块中。当一个区块生成之后，未被处理的交易会被移出内存池，然后新的交易又会加入内存池。通过使用大小固定的内存池，我们可以避免网络在需求旺盛时过载，但这也意味着钱包或应用可能需要重新提交交易。目前内存池的大小设定为 128 KB：即当前区块大小的两倍。这个参数是基于排队模型（queuing model）选取的。</p>
+<h2 id="网络延展">网络延展</h2>
+<p>Ouroboros 的设计目标是有能力处理大量数据以及不同复杂度和大小的交易和脚本。目前来说，使用当前的参数，Cardano 网络平均只能使用大约 25% 的容量。当然，最高效的情况是 Cardano 的容量基本 100% 能用掉（即网络饱和）。虽然许多网络连接方案可能会在这种情况下出问题，但 Ouroboros 和 Cardano 网络的结构设计使其能够公平且高度弹性地应对严重饱和的情况。基准测试分析表明：在 200% 饱和度下，Cardano 的整体性能仍然是有弹性的，不会出现网络故障问题。即使是在 44 倍的压力测试下，整体可用的网络容量依然没有出现问题（但某些交易可能会稍有延迟）。Cardano 网络的工作模式就是这样设计的，使用背压（backpressure）机制来管理整体系统负载。因此，举个例子，尽管某些用户在参与大型 NFT 项目发行时可能会等待更长的交易时间，或可能需要重新提交大批量交易中某些个别交易（或使得 NFT 发行过程持续更长时间），但这并不意味着网络「崩溃了」。这实际上表明 Cardano 网络的表现正符合预期。我们称之为「优雅的降级」，更多详情请参阅<a href="https://hydra.iohk.io/build/7249613/download/1/network-design.pdf">这篇关于网络设计的论文</a>。</p>
+<h2 id="钱包">钱包</h2>
+<p>钱包的作用是代表最终用户向区块链提交支付和其它交易，此外还能用于跟踪区块链状态。钱包提供一大核心服务是：代表用户提交交易、确认交易已经被区块链接受、如果提交没成功便继续重试。也就是说，钱包应该考虑到网络饱和时的背压影响以及其它网络问题的影响（比如暂时断开连接、可能的链分叉等）。钱包分为两种：</p>
+<ul>
+<li>全节点钱包（如 Daedalus），其使用本地计算和网络资源运行一个直接连接至 Cardano 网络的节点。</li>
+<li>轻钱包：其使用共享的计算和网络资源来为大量最终用户提供服务。</li>
+</ul>
+<p>在网络需求很高时（比如 NFT 发售时），这两类钱包可能都会需要重试交易。轻钱包由于会向许多用户共享资源，因此可能需要临时扩展可用的计算和网络资源（包括复制服务端点），这样才能满足用户需求。这种按需扩展类似于公司发布一款受欢迎的新产品时需要临时满足的需求。相对而言，全节点钱包可能不会受到根本性的影响。交易可能会有所延迟，但每个钱包都会有重试提交交易的专属资源，包括其自有的网络连接。类似的原则对 DApp 提供商来说也适用——其在提供特定的网络端点时应该扩展系统资源来满足需求。</p>
+<h2 id="过程优化">过程优化</h2>
+<p>我们自然欢迎 NFT 社区正在发生的创新（和交流）。为了提升用户体验，我们有必要优化开发流程，使得创建 NFT 等过程即使是在系统饱和时也能有效运作。举个例子，许多 NFT 创建者会使用批处理来创建 NFT，这样做的效率更高。</p>
+<p>我们也鼓励 NFT 创造者继续优化流程，以尽可能减少网络拥塞。我们也希望大家都加入到创造者社区的 <a href="https://discord.gg/inputoutput">Discord</a> 讨论中，我们有工程师帮助寻找适合特定案例的最佳匹配方案。</p>
+<p>除了由参数调整提供的灵活性（如有必要可在一个 epoch 内实现），从中长期看，我们还有更进一步的选择。<a href="https://iohk.io/en/blog/posts/2021/09/17/hydra-cardano-s-solution-for-ultimate-scalability/">Hydra</a> 让 Cardano 可以并行执行多个操作，实现更强的可扩展性。<a href="https://www.youtube.com/watch?v=lvMtaixmPwo">state-channel 解决方案</a>可以提升系统吞吐量，同时降低对链上执行的需求。但是，尽管 Hydra 有多个可扩展性用例加持，但它并不能针对性地解决 NFT 创建效率问题。随着 Cardano 继续成熟和发展，我们将继续努力优化网络和管理网络容量。正如我最近在<a href="https://youtu.be/XzdTyV5Jejc?t=736">十月份的月中更新</a>中谈到的那样，随着 Cardano 运行容量增长，我们可以按需调整 Cardano 的参数。比如，我们可以降低区块时间预算、优化 Plutus 脚本的大小和执行时间或降低其执行成本、提升吞吐量。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[菜田观察]]></title>
         <id>https://czyouge.github.io/post/2110-9cai/</id>
@@ -951,92 +998,6 @@
         <updated>2021-07-21T00:49:28.000Z</updated>
         <content type="html"><![CDATA[<p>刚把我的一些短篇故事搬上来了，展示时间改成了对应文件的最后修改时间。</p>
 <p>连接同步感觉还是问题挺大的，尝试了好多次才成功。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[用Gridea搭建博客竟如此简单]]></title>
-        <id>https://czyouge.github.io/post/Gridea/</id>
-        <link href="https://czyouge.github.io/post/Gridea/">
-        </link>
-        <updated>2021-07-20T14:21:53.000Z</updated>
-        <summary type="html"><![CDATA[<p>我曾在大学时试过用 WordPress 搭建博客，但其复杂程度超过了我的掌控能力，后来也反反复复多次使用过 GitHub Jekyll，但总觉得不好用，坚持不了几天。到后来，我就更愿意使用现成的博客服务平台了，比如新浪博客、网易 Lofter、简书等，但国内博客平台存在严重的审查问题，所以也始终不称意。然后我就开始用 Blogger，体验很差，但好在没了审查，所以也就忍受了几年。但如此却将我自己的故事挡在了墙外，常会让我感到遗憾。尽管我尝试使用 ZeroNet 来发布文章，但这个分布式网络可以说是一个鬼城，并没有几个真正严肃的真实用户。</p>
-<p>今天下午，我偶然在知乎上看到了一篇文章《<a href="https://zhuanlan.zhihu.com/p/165948546">完全小白教程：使用Github Pages和Gridea搭建个人博客</a>》，发现了 <a href="https://gridea.dev/">Gridea</a> 这个超简单的博客工具，简单了解了下发现这正是我需要的东西——简简单单就能免费创建一个能受自己控制且（几乎）不被审查的博客。<strong>真的非常简单！</strong></p>
-<p>下面我将分步骤描述我的创建和配置过程，其中包括注册配置 GitHub 代码库、下载配置 Gridea 客户端、选择合适的博客主题、绑定域名、配置谷歌分析、发布文章。</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>我曾在大学时试过用 WordPress 搭建博客，但其复杂程度超过了我的掌控能力，后来也反反复复多次使用过 GitHub Jekyll，但总觉得不好用，坚持不了几天。到后来，我就更愿意使用现成的博客服务平台了，比如新浪博客、网易 Lofter、简书等，但国内博客平台存在严重的审查问题，所以也始终不称意。然后我就开始用 Blogger，体验很差，但好在没了审查，所以也就忍受了几年。但如此却将我自己的故事挡在了墙外，常会让我感到遗憾。尽管我尝试使用 ZeroNet 来发布文章，但这个分布式网络可以说是一个鬼城，并没有几个真正严肃的真实用户。</p>
-<p>今天下午，我偶然在知乎上看到了一篇文章《<a href="https://zhuanlan.zhihu.com/p/165948546">完全小白教程：使用Github Pages和Gridea搭建个人博客</a>》，发现了 <a href="https://gridea.dev/">Gridea</a> 这个超简单的博客工具，简单了解了下发现这正是我需要的东西——简简单单就能免费创建一个能受自己控制且（几乎）不被审查的博客。<strong>真的非常简单！</strong></p>
-<p>下面我将分步骤描述我的创建和配置过程，其中包括注册配置 GitHub 代码库、下载配置 Gridea 客户端、选择合适的博客主题、绑定域名、配置谷歌分析、发布文章。</p>
-<!-- more -->
-<h2 id="1-注册配置-github-代码库">1 注册配置 GitHub 代码库</h2>
-<p>首先注册一个 GitHub 账户。如果你不打算使用自己的域名，那么请慎重选择你的「用户名」，因为它会以「用户名.github.io」这一形式作为你的博客地址。</p>
-<p>注册完毕后，点击右上角＋，单击 New repository，新建代码库：</p>
-<figure data-type="image" tabindex="1"><img src="https://czyouge.github.io/post-images/image-20210720202628904.png" alt="" loading="lazy"></figure>
-<p>之后在 Repository name 填写你的「用户名.github.io」，然后创建代码库：</p>
-<figure data-type="image" tabindex="2"><img src="https://czyouge.github.io/post-images/image-20210720202928323.png" alt="" loading="lazy"></figure>
-<p>此时你会得到一个空的代码库。</p>
-<p>点击右上角头像，进入 Settings，找到 Developer Settings，选择 Personal access tokens，然后点击 Generate new token：</p>
-<figure data-type="image" tabindex="3"><img src="https://czyouge.github.io/post-images/image-20210720204256133.png" alt="" loading="lazy"></figure>
-<p>然后在 Note 处随意填写你的备注，勾选 repo，然后点击下方生成 token：</p>
-<figure data-type="image" tabindex="4"><img src="https://czyouge.github.io/post-images/image-20210720204126978.png" alt="" loading="lazy"></figure>
-<p>复制这行 <code>ghp_</code> 开头的 token。请注意蓝色警告：<strong>退出该页面后将无法看到这串字符</strong>。如果失误丢失了这个 token 也别慌，你可以重复上述步骤再生成一个新的。</p>
-<figure data-type="image" tabindex="5"><img src="https://czyouge.github.io/post-images/image-20210720214833020.png" alt="" loading="lazy"></figure>
-<h2 id="2-下载配置-gridea-客户端">2 下载配置 Gridea 客户端</h2>
-<p>在 <a href="https://gridea.dev/">Gridea 官网</a>或<a href="https://github.com/getgridea/gridea/releases">其 GitHub 代码库</a>下载对应操作系统的客户端并安装。</p>
-<p>首先进入「远程」进行配置。平台选择 GitHub Pages，域名选择 https:// 并填写你的「用户名.github.io」，仓库名称也是「用户名.github.io」，分支可填写 master 或 main，用户名便是你的用户名，邮箱可选，令牌则粘贴上面的 token。如果你有自己的域名，就填入 CNAME；如果否则留空。然后点击右下「保存」，并可点击左下角「检测远程连接」。<em>我个人偶尔会遇到连接不上的情况，可能还是有些 bug。</em> 如果没问题，便可以将你的初始博客「同步」到 GitHub。</p>
-<figure data-type="image" tabindex="6"><img src="https://czyouge.github.io/post-images/image-20210720205218331.png" alt="" loading="lazy"></figure>
-<p>同步成功后，等待很短时间，访问你的「用户名.github.io」应该就能看到你的博客了。</p>
-<p>初始博客预置了两篇文章，一篇是欢迎文章，一篇是「关于」，两者均可删除或修改。</p>
-<p>另外，如果你希望在自己定义的文件夹（比如放在网盘文件夹中同步）管理你的博客，可点击左下角的设置按钮，配置「站点源文件路径」：</p>
-<figure data-type="image" tabindex="7"><img src="https://czyouge.github.io/post-images/image-20210720210854812.png" alt="" loading="lazy"></figure>
-<h2 id="3-选择合适的博客主题">3 选择合适的博客主题</h2>
-<p>在 Gridea 客户端「主题」窗口，可以选择博客主题。选择之后一定要点击保存，并且要同步成功后才能应用到博客上：</p>
-<figure data-type="image" tabindex="8"><img src="https://czyouge.github.io/post-images/image-20210720210338334.png" alt="" loading="lazy"></figure>
-<p>Gridea 预置了 4 个主题，但它们可能并不合你的心意。你也可以在<a href="https://gridea.dev/themes/">官网主题页面</a>下载你感兴趣的主题。然后将下载好的主题解压后放入<code>站点源文件路径</code>下的 <code>themes</code> 路径中。之后关闭 Gridea 客户端并重启，再重新选择主题即可。</p>
-<figure data-type="image" tabindex="9"><img src="https://czyouge.github.io/post-images/image-20210720211529806.png" alt="" loading="lazy"></figure>
-<p>当然你也可以修改你的主题，这可通过 Gridea 客户端的「自定义配置」实现，也可通过修改相应主题中的文件或 <code>config</code> 文件夹中相应配置文件完成。</p>
-<h2 id="4-绑定域名">4 绑定域名</h2>
-<p>我的域名 czyouge.xyz 是几年前在 Godaddy 购买的，当时挺便宜，现在价格应该也不高。购买完成后进入该域名的 DNS 管理，添加如下图所示的几条记录：</p>
-<figure data-type="image" tabindex="10"><img src="https://czyouge.github.io/post-images/image-20210720212007307.png" alt="" loading="lazy"></figure>
-<p>其中一条是 CNAME 记录，<code>name</code> 填入 www，当然你可以用其它的，比如 blog——这样可通过 <code>blog.你的域名</code> 访问你的博客。<code>value</code> 填入你的「用户名.github.io」。</p>
-<p>另外再添加一条或多条 A 记录，这是为了实现更安全的 HTTPS 访问，A 记录的 IP 地址可选择：</p>
-<ul>
-<li>185.199.108.153</li>
-<li>185.199.109.153</li>
-<li>185.199.110.153</li>
-<li>185.199.111.153</li>
-</ul>
-<p>更多详情可参考<a href="https://www.zhihu.com/question/31377141/answer/103056861">这个知乎回答</a>。</p>
-<p>然后进入你的 GitHub 代码库，选择 Settings：</p>
-<figure data-type="image" tabindex="11"><img src="https://czyouge.github.io/post-images/image-20210720212847287.png" alt="" loading="lazy"></figure>
-<p>然后选择 Pages，在 Custom domain 填入你的域名并保存（Save），然后等待验证完成，点击 Enforce HTTPS，这是强制启用 HTTPS。这样即使使用 <code>http://你的域名</code> 访问，也会强制转向 <code>https://你的域名</code>。</p>
-<figure data-type="image" tabindex="12"><img src="https://czyouge.github.io/post-images/image-20210720212957155.png" alt="" loading="lazy"></figure>
-<p>这个功能很有用，至少 Chrome 浏览器在打开你的博客时不会发出安全报警，比如访问饭否时便会收到这样的报警：</p>
-<figure data-type="image" tabindex="13"><img src="https://czyouge.github.io/post-images/image-20210720213551484.png" alt="" loading="lazy"></figure>
-<h2 id="5-配置谷歌分析">5 配置谷歌分析</h2>
-<p>如果你想知道博客的访问数据，可以免费使用谷歌分析来做到这一点。Gridea 也提供了非常简单易用的支持。</p>
-<p>首先当然是注册谷歌账户，然后进入 <a href="https://analytics.google.com/">Google Analytics</a>。点击左下角管理：</p>
-<figure data-type="image" tabindex="14"><img src="https://czyouge.github.io/post-images/image-20210720214100101.png" alt="" loading="lazy"></figure>
-<p>然后在「账号」栏创建账号，之后你会得到一个 <code>UA-xxxxxxxxx-x</code> 格式的跟踪 ID。接下来进入「媒体资源设置」：</p>
-<figure data-type="image" tabindex="15"><img src="https://czyouge.github.io/post-images/image-20210720214514791.png" alt="" loading="lazy"></figure>
-<p>在「默认网址」设置 https 并填入你的网址：</p>
-<figure data-type="image" tabindex="16"><img src="https://czyouge.github.io/post-images/image-20210720214719382.png" alt="" loading="lazy"></figure>
-<p>然后进入 Gridea 客户端「主题」→「自定义配置」→「谷歌统计」，填入跟踪 ID：</p>
-<figure data-type="image" tabindex="17"><img src="https://czyouge.github.io/post-images/image-20210720215231254.png" alt="" loading="lazy"></figure>
-<p>之后可通过<a href="https://analytics.google.com/">谷歌分析</a>查看博客访问数据报告。</p>
-<h2 id="6-发布文章">6 发布文章</h2>
-<p>使用 Gridea，我们有两种发布博客文章的方式。</p>
-<p>一是使用客户端文章窗口添加文章：</p>
-<figure data-type="image" tabindex="18"><img src="https://czyouge.github.io/post-images/image-20210720215627564.png" alt="" loading="lazy"></figure>
-<p>但这种方法略显笨重。</p>
-<p>第二种方法则是直接将 Markdown 文章放入 <code>站点源文件路径</code> 下的 <code>posts</code> 文件夹中。使用这种方式有几点需要注意：</p>
-<ul>
-<li>Markdown 文件的名称即为文章的链接 ID。</li>
-<li>文件内有一些重要的元数据：title 是文章标题，date 是展示的时间，tag 为标签，published 为是否发布（false为保存草稿）、hideInList为是否隐藏（隐藏后不会在文章列表中出现）、isTop为是否置顶，feature 的参数则为文章封面图的链接（可留空）。</li>
-<li><code>&lt;!-- more --&gt;</code> 用于分割摘要和其余正文。</li>
-<li>另外，如果是在其它位置编辑带图片的 Markdown 文件，请注意图片的相对地址。</li>
-</ul>
-<figure data-type="image" tabindex="19"><img src="https://czyouge.github.io/post-images/image-20210720220205046.png" alt="" loading="lazy"></figure>
-<p>最后，在任何操作后都记得「<strong>同步</strong>」到 GitHub 代码库哦，这样你的文章才能和读者见面。</p>
 ]]></content>
     </entry>
 </feed>
