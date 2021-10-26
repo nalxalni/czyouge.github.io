@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://czyouge.github.io</id>
-    <title>虫子游戈</title>
-    <updated>2021-10-26T12:36:01.531Z</updated>
+    <title>游虫斜会</title>
+    <updated>2021-10-26T15:28:41.733Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://czyouge.github.io"/>
     <link rel="self" href="https://czyouge.github.io/atom.xml"/>
     <subtitle>一个讲故事的人类</subtitle>
     <logo>https://czyouge.github.io/images/avatar.png</logo>
     <icon>https://czyouge.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2021, 虫子游戈</rights>
+    <rights>All rights reserved 2021, 游虫斜会</rights>
     <entry>
         <title type="html"><![CDATA[一个有趣的新项目]]></title>
         <id>https://czyouge.github.io/post/2110-newproject/</id>
