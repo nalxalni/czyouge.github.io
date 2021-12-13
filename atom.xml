@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://czyouge.github.io</id>
-    <title>游虫斜会</title>
-    <updated>2021-12-03T02:36:50.290Z</updated>
+    <title>czyouge</title>
+    <updated>2021-12-13T03:15:20.728Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://czyouge.github.io"/>
     <link rel="self" href="https://czyouge.github.io/atom.xml"/>
     <subtitle>一个讲故事的人类</subtitle>
     <logo>https://czyouge.github.io/images/avatar.png</logo>
     <icon>https://czyouge.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2021, 游虫斜会</rights>
+    <rights>All rights reserved 2021, czyouge</rights>
     <entry>
         <title type="html"><![CDATA[现代家庭]]></title>
         <id>https://czyouge.github.io/post/2111-modernfamily/</id>
