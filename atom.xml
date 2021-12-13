@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://czyouge.github.io</id>
     <title>czyouge</title>
-    <updated>2021-12-13T11:37:29.712Z</updated>
+    <updated>2021-12-13T11:39:30.167Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://czyouge.github.io"/>
     <link rel="self" href="https://czyouge.github.io/atom.xml"/>
@@ -16,10 +16,16 @@
         <link href="https://czyouge.github.io/post/2112-douban/">
         </link>
         <updated>2021-12-13T12:10:10.000Z</updated>
+        <summary type="html"><![CDATA[<p>铡刀坠下，豆瓣可能会死，形在神灭。</p>
+<p>对一些用户来说，豆瓣是很难替代的；但豆瓣是<strong>可被替代的</strong>。</p>
+<p>究其根本，豆瓣的核心服务有三个：标记评论、小组论坛和社交；其它比如 FM、同城、市集、日记（博客）等非核心服务很容易找到替代品。</p>
+<p>对于标记评论和社交，现在都已经有了相当不错的分布式替代服务。</p>
+]]></summary>
         <content type="html"><![CDATA[<p>铡刀坠下，豆瓣可能会死，形在神灭。</p>
 <p>对一些用户来说，豆瓣是很难替代的；但豆瓣是<strong>可被替代的</strong>。</p>
 <p>究其根本，豆瓣的核心服务有三个：标记评论、小组论坛和社交；其它比如 FM、同城、市集、日记（博客）等非核心服务很容易找到替代品。</p>
 <p>对于标记评论和社交，现在都已经有了相当不错的分布式替代服务。</p>
+<!-- more -->
 <h2 id="社交">社交</h2>
 <p>社交网络算得上是现代互联网的一大基础设施了——没有了社交网络，我又该到哪里吐槽呢<code>^_^</code>？而由于社交网络天生的 UGC 属性，因此在中国的言论控制下也自然成为重点审查对象。</p>
 <p>为了规避审查，一些用户选择使用缩写、变体字、谐音词等等来绕过服务提供商普遍采用的关键词审查机制，另一些用户则选择退出会被审查的墙内中心化服务，转而使用墙外的中心化服务或分布式服务。</p>
